@@ -71,7 +71,7 @@ abstract class CommonAdapterTest extends TestCase
         );
     }
 
-    public function tearDown()
+    public function tearDown() : void
     {
         // be sure the error handler has been stopped
         if (ErrorHandler::started()) {
