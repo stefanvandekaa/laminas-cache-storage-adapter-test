@@ -35,7 +35,7 @@ class AdapterOptionsTest extends TestCase
      */
     protected $options;
 
-    public function setUp()
+    public function setUp() : void
     {
         $this->options = new AdapterOptions();
     }

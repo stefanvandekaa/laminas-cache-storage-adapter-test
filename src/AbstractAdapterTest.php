@@ -37,7 +37,7 @@ class AbstractAdapterTest extends TestCase
     protected $_options;
     // @codingStandardsIgnoreEnd
 
-    public function setUp()
+    public function setUp() : void
     {
         $this->_options = new AdapterOptions();
     }

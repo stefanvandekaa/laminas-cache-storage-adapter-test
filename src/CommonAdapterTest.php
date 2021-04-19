@@ -57,7 +57,7 @@ abstract class CommonAdapterTest extends TestCase
     ];
     // @codingStandardsIgnoreEnd
 
-    public function setUp()
+    public function setUp() : void
     {
         $this->assertInstanceOf(
             'Laminas\Cache\Storage\StorageInterface',
